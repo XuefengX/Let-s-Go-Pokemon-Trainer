@@ -228,7 +228,7 @@ music.play();
 
 		}
 
-    if(gameOver >= 50){
+    if(gameOver >= 1200){
       endtext.box.setString(endtext.text + std::to_string(score));
       window.draw(endScreen.sprite);
       window.draw(endtext.box);

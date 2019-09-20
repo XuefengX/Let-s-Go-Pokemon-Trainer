@@ -34,12 +34,12 @@ class EndText{
     :box()
     {
         font.loadFromFile("../resource/arial.ttf");
-        text = "Game Over!\nYour Score is:";
+        text = "    Game Over!\nYour Score is: ";
         box.setString(text + std::to_string(s));
-        box.setCharacterSize(50);
-        box.setPosition(600.f, 720.f);
+        box.setCharacterSize(60);
+        box.setPosition(500.f, 720.f);
         box.setOrigin(123.f, 77.f);
-        box.setFillColor(sf::Color::Red);
+        box.setFillColor(sf::Color::Blue);
         box.setStyle(sf::Text::Bold);
         box.setFont(font);
     }

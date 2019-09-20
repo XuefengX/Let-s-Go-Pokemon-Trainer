@@ -14,10 +14,10 @@ class ScoreBoard{
     :board()
     {
         font.loadFromFile("../resource/arial.ttf");
-        text = "Catch a pokemon\nscore + 10\nRun into a pokemon\nscore - 10\n\nScore: ";
+        text = "Time Limit: 20s\nCatch a pokemon\nscore + 10\nRun into a pokemon\nscore - 10\n\nScore: ";
         score = std::to_string(s);
         board.setString(text+score);
-        board.setPosition(870.f, 120.f);
+        board.setPosition(850.f, 120.f);
         board.setCharacterSize(30);
         board.setFillColor(sf::Color::White);
         board.setStyle(sf::Text::Bold);
